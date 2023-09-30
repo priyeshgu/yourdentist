@@ -1,0 +1,1851 @@
+.home-desktop-child {
+  position: absolute;
+  top: 282px;
+  left: 0;
+  width: 1440px;
+  height: 466.3px;
+  display: none;
+}
+.home-desktop-inner,
+.home-desktop-item {
+  position: absolute;
+  top: 195.79px;
+  left: 765.79px;
+  border-radius: 50%;
+  width: 590px;
+  height: 590px;
+  display: none;
+}
+.home-desktop-inner {
+  top: 944px;
+  left: 284px;
+  background-color: var(--color-deepskyblue);
+  filter: blur(25px);
+  width: 50px;
+  height: 50px;
+}
+.frame-child {
+  position: absolute;
+  top: 69.5px;
+  left: -0.3px;
+  width: 1280.73px;
+  height: 415.48px;
+}
+.frame-item {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 414px;
+  height: 444px;
+  object-fit: cover;
+}
+.because-your-smile,
+.why-choose-your {
+  position: absolute;
+  display: inline-block;
+}
+.why-choose-your {
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--dark-blue-design);
+  width: 522px;
+}
+.because-your-smile {
+  top: 112px;
+  left: 1px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  width: 521px;
+}
+.iconlylight-outlineshield-do {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.top-quality-dental {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-weight: 500;
+}
+.frame-group,
+.iconlylight-outlineshield-do-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-group {
+  position: absolute;
+  top: 202px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-lg);
+}
+.why-choose-your-dentist-for-al-parent {
+  position: relative;
+  width: 522px;
+  height: 359px;
+}
+.book-an-appointment {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-family: var(--font-dm-sans);
+  color: var(--secondary-color);
+  text-align: left;
+}
+.book-an-appointment-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-11xl);
+  background-color: var(--mid-blue-design);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-start;
+}
+.book-an-appointment-wrapper,
+.frame-parent,
+.rectangle-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent {
+  width: 522px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.rectangle-parent {
+  position: absolute;
+  top: 55px;
+  left: 108px;
+  height: 444px;
+  flex-direction: row;
+  align-items: center;
+  gap: 128px;
+}
+.highlight-underline-3 {
+  position: absolute;
+  top: 57.7px;
+  left: 909px;
+  width: 119.4px;
+  height: 100.84px;
+  overflow: hidden;
+  transform: rotate(-0.84deg);
+  transform-origin: 0 0;
+}
+.group-parent {
+  position: absolute;
+  top: 1900px;
+  left: 80px;
+  background-color: var(--light-blue-design);
+  width: 1280px;
+  height: 554px;
+  font-size: 37px;
+  color: var(--body-text);
+}
+.frame-inner {
+  position: relative;
+  width: 96px;
+  height: 44px;
+}
+.group-container {
+  position: absolute;
+  top: 5000px;
+  left: 619px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.news-articles {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.we-use-only {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--body-text);
+  display: inline-block;
+  width: 455px;
+}
+.news-articles-parent {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 455px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: var(--br-3xs);
+  width: 265px;
+  height: 230px;
+  object-fit: cover;
+}
+.care-of-your,
+.lorem-ipsum-dolor {
+  position: absolute;
+  left: 20px;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.care-of-your {
+  top: 321px;
+  font-weight: 500;
+}
+.lorem-ipsum-dolor {
+  top: 359px;
+  color: var(--body-text);
+  display: inline-block;
+  width: 265px;
+}
+.anita-jackson,
+.self-care {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.anita-jackson {
+  position: absolute;
+  top: 417px;
+  left: 168px;
+}
+.self-care {
+  position: relative;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--secondary-color);
+  text-align: left;
+}
+.self-care-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--dark-blue-design);
+  position: absolute;
+  top: 272px;
+  left: 20px;
+  border-radius: var(--br-8xs);
+  width: 97px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-group {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-blue-design);
+  width: 305px;
+  height: 452px;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.self-care-wrapper1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xs);
+  background-color: var(--dark-blue-design);
+  position: absolute;
+  top: 272px;
+  left: 20px;
+  border-radius: var(--br-8xs);
+  width: 97px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frame-parent2,
+.view-all-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent2 {
+  top: 200px;
+  left: 0;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-lg);
+}
+.view-all-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 40px;
+  background-color: var(--mid-blue-design);
+  top: 74px;
+  left: 1137px;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+}
+.frame-parent1 {
+  position: relative;
+  width: 1280px;
+  height: 1134px;
+}
+.frame-container,
+.home-parent {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-container {
+  top: 5166px;
+  left: 80px;
+  width: 1280px;
+  height: 1239px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.home-parent {
+  top: 0;
+  left: 864px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.line-div {
+  position: absolute;
+  top: 79px;
+  left: -1px;
+  border-top: 2px solid var(--dark-blue-design);
+  box-sizing: border-box;
+  width: 1282px;
+  height: 2px;
+}
+.all-rights-reserved {
+  position: absolute;
+  top: 126px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--dark-blue-design);
+}
+.facebook-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.facebook-parent {
+  position: absolute;
+  top: 110px;
+  left: 1040px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frame-parent6 {
+  position: relative;
+  width: 1281px;
+  height: 148px;
+}
+.dentist,
+.your {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 125px;
+  font-size: inherit;
+  letter-spacing: 0.09em;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 166px;
+}
+.your {
+  left: 38px;
+  letter-spacing: -0.02em;
+  width: 87px;
+}
+.tooth-svgrepo-com-1-icon {
+  position: absolute;
+  height: 70.27%;
+  width: 11.34%;
+  top: 13.51%;
+  right: 88.66%;
+  bottom: 16.22%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dentist-parent {
+  position: relative;
+  width: 291px;
+  height: 37px;
+  margin-top: -147px;
+  font-size: var(--font-size-12xl);
+  color: var(--dark-blue-design);
+}
+.frame,
+.frame-parent5 {
+  display: flex;
+  flex-direction: column;
+}
+.frame-parent5 {
+  width: 1281px;
+  height: 148px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame {
+  position: absolute;
+  top: 7228px;
+  left: 79px;
+  width: 1282px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--body-text);
+}
+.icon-google {
+  position: relative;
+  width: 33.55px;
+  height: 33.55px;
+}
+.frame1,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.frame1 {
+  top: -6844px;
+  left: -131px;
+  width: 1702px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.vector-icon {
+  height: 0.6%;
+  width: 35.56%;
+  top: 25.93%;
+  right: 45.07%;
+  bottom: 73.47%;
+  left: 19.37%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.at-our-clinic,
+.book-an-appointment1 {
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  display: inline-block;
+}
+.at-our-clinic {
+  position: absolute;
+  top: 220px;
+  left: 0;
+  color: var(--body-text);
+  width: 531px;
+}
+.book-an-appointment1 {
+  position: relative;
+  width: 273px;
+  flex-shrink: 0;
+}
+.book-an-appointment-container {
+  position: absolute;
+  top: 344px;
+  left: 1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--mid-blue-design);
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--secondary-color);
+}
+.where-smiles-shine {
+  margin: 0;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 687px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 531px;
+  width: 695.43px;
+  height: 676.42px;
+  object-fit: cover;
+}
+.where-smiles-shine-bright-te-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1226.43px;
+  height: 676.42px;
+  font-size: 49px;
+}
+.exceptional-care-gentle,
+.patient {
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.exceptional-care-gentle {
+  position: absolute;
+  top: 67px;
+  left: 17px;
+  display: inline-block;
+  width: 308px;
+  height: 36px;
+}
+.patient {
+  position: relative;
+  font-size: var(--font-size-xs);
+  margin-top: -2px;
+}
+.ellipse-icon,
+.smita-prakash-parent {
+  position: absolute;
+  top: 12.54px;
+  height: 41.79px;
+}
+.smita-prakash-parent {
+  left: 66.67px;
+  width: 93.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.ellipse-icon {
+  left: 16.67px;
+  border-radius: 50%;
+  width: 41.67px;
+  object-fit: cover;
+}
+.icon-google1 {
+  position: absolute;
+  height: 18.8%;
+  width: 5.88%;
+  top: 13.68%;
+  right: 4.81%;
+  bottom: 67.52%;
+  left: 89.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.exceptional-care-gentle-touch-parent {
+  position: absolute;
+  top: 449px;
+  left: 1px;
+  border-radius: 16.67px;
+  background-color: var(--secondary-color);
+  box-shadow: 0 8.333333015441895px 41.67px rgba(0, 0, 0, 0.08);
+  width: 374px;
+  height: 117px;
+  font-size: var(--font-size-xs);
+}
+.at-our-clinic-we-blend-compas-parent,
+.ellipse-div {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  width: 1226.43px;
+  height: 676.42px;
+}
+.ellipse-div {
+  top: 0;
+  left: 815.63px;
+  border-radius: 50%;
+  width: 478px;
+  height: 478px;
+  transform: rotate(17.86deg);
+  transform-origin: 0 0;
+}
+.frame-parent7 {
+  position: absolute;
+  top: 79px;
+  left: 51px;
+  width: 1270.59px;
+  height: 757.42px;
+  font-size: var(--font-size-lg);
+}
+.rectangle-input {
+  border: 0;
+  background-color: var(--light-blue-design);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 1280px;
+  height: 90px;
+}
+.about1 {
+  position: absolute;
+  top: 33px;
+  left: 731px;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-weight: 500;
+}
+.blogs1 {
+  left: 373px;
+  font-weight: 500;
+}
+.blogs1,
+.contact1,
+.home1,
+.services {
+  position: absolute;
+  top: 0;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.services {
+  left: 89px;
+  font-weight: 500;
+}
+.contact1,
+.home1 {
+  left: 0;
+}
+.contact1 {
+  left: 198px;
+  font-weight: 500;
+}
+.blogs-parent {
+  position: absolute;
+  top: 33px;
+  left: 433px;
+  width: 414px;
+  height: 25px;
+}
+.book-now-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-11xl);
+  background-color: var(--mid-blue-design);
+  top: 18px;
+  left: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.book-now-wrapper,
+.frame-child8,
+.rectangle-div {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.rectangle-div {
+  top: 826px;
+  left: 0;
+  background-color: var(--light-blue-design);
+  box-shadow: 0 20px 70px rgba(230, 246, 254, 0.3);
+  width: 1280px;
+  height: 439px;
+}
+.frame-child8 {
+  top: 876px;
+  left: 35px;
+  background-color: var(--secondary-color);
+  width: 387px;
+  height: 300px;
+}
+.root-canal-treatment {
+  margin: 0;
+  position: absolute;
+  top: 981px;
+  left: 106px;
+  font-size: var(--font-size-5xl);
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  text-align: center;
+}
+.learn-more,
+.root-canal-treatment1 {
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.root-canal-treatment1 {
+  position: absolute;
+  top: 1026px;
+  left: 70px;
+  font-size: var(--font-size-lg);
+  color: var(--body-text);
+  text-align: center;
+  display: inline-block;
+  width: 317px;
+}
+.learn-more {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.iconlylight-outlinearrow-r {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 24px;
+  height: 22.72px;
+}
+.learn-more-parent {
+  position: absolute;
+  top: 1125px;
+  left: 168px;
+  width: 120px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.frame-child9 {
+  position: absolute;
+  top: 894px;
+  left: 194px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue);
+  width: 70px;
+  height: 70px;
+}
+.teeth-1-icon {
+  position: absolute;
+  top: 905px;
+  left: 205px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.frame-child10 {
+  position: absolute;
+  top: 28px;
+  left: 169px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue);
+  filter: blur(25px);
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.cosmetic-dentist {
+  margin: 0;
+  position: absolute;
+  top: 105px;
+  left: 95px;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.cosmetic-dentistry-is,
+.learn-more1 {
+  position: absolute;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.cosmetic-dentistry-is {
+  top: 150px;
+  left: 43px;
+  font-size: 17.5px;
+  color: var(--body-text);
+  display: inline-block;
+  width: 301px;
+}
+.learn-more1 {
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.iconlylight-outlinearrow-r1 {
+  display: none;
+}
+.iconlylight-outlinearrow-r1,
+.iconlylight-outlinearrow-r2 {
+  position: absolute;
+  height: 90.88%;
+  width: 19.83%;
+  top: 0;
+  right: 0;
+  bottom: 9.12%;
+  left: 80.17%;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.learn-more-group {
+  position: absolute;
+  top: 249px;
+  left: 133px;
+  width: 121px;
+  height: 25px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.frame-child11 {
+  position: absolute;
+  top: 18px;
+  left: 159px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue);
+  width: 70px;
+  height: 70px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 876px;
+  left: 446px;
+  border-radius: var(--br-3xs);
+  background-color: var(--secondary-color);
+  width: 387px;
+  height: 300px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.smile-1-icon {
+  position: absolute;
+  top: 905px;
+  left: 616px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.dental-implants {
+  margin: 0;
+  position: absolute;
+  top: 105px;
+  left: 105px;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.a-dental-implant {
+  position: absolute;
+  top: 150px;
+  left: 35px;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--body-text);
+  display: inline-block;
+  width: 318px;
+}
+.learn-more-container {
+  position: absolute;
+  top: 249px;
+  left: 133px;
+  width: 121px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.ellipse-group {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--secondary-color);
+  width: 387px;
+  height: 300px;
+}
+.implant-1-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-top: -271px;
+}
+.frame-parent8 {
+  position: absolute;
+  top: 876px;
+  left: 858px;
+  width: 387px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.frame-child14 {
+  position: absolute;
+  top: 83px;
+  left: 700px;
+  width: 621.59px;
+  height: 451px;
+}
+.tooth-svgrepo-com-1-icon1 {
+  position: relative;
+  width: 33px;
+  height: 26px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.your1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 87px;
+  flex-shrink: 0;
+}
+.tooth-svgrepo-com-1-parent {
+  width: 125px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.dentist1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.09em;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 166px;
+  flex-shrink: 0;
+}
+.frame-parent9 {
+  position: absolute;
+  top: 27px;
+  left: 34px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-12xl);
+}
+.view-all-services {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.iconlylight-outlinearrow-r4 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 32px;
+  height: 30px;
+}
+.view-all-services-parent {
+  position: absolute;
+  top: 1208px;
+  left: 565px;
+  width: 232px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 11px;
+  font-size: 23px;
+}
+.frame3 {
+  position: relative;
+  width: 1321.59px;
+  height: 1265px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame2,
+.highlight-underline-31 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame2 {
+  top: 40px;
+  left: 38.41px;
+  width: 1363.18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-blue-design);
+  font-family: var(--font-dm-sans);
+}
+.highlight-underline-31 {
+  top: 0;
+  left: 133px;
+  width: 223.77px;
+  height: 173.8px;
+}
+.frame-child15,
+.frame-child16 {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 413px;
+  height: 362px;
+}
+.frame-child15 {
+  top: 0;
+  left: 30px;
+  background: linear-gradient(
+    52.56deg,
+    rgba(37, 180, 248, 0),
+    rgba(37, 180, 248, 0.47) 51.04%,
+    #25b4f8
+  );
+}
+.frame-child16 {
+  top: 30px;
+  left: 0;
+  object-fit: cover;
+}
+.rectangle-parent7 {
+  position: absolute;
+  top: 0;
+  left: 697px;
+  width: 443px;
+  height: 392px;
+}
+.were-welcoming-new {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 507px;
+}
+.discover-a-dental {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--body-text);
+  display: inline-block;
+  width: 531px;
+}
+.were-welcoming-new-patients-a-parent {
+  position: absolute;
+  top: 23px;
+  left: 2px;
+  width: 531px;
+  height: 235.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.user-alt-icon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.enter-your-name {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.frame-wrapper,
+.user-alt-parent {
+  border-radius: var(--br-3xs);
+  display: flex;
+}
+.user-alt-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-wrapper {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 341px;
+  height: 55px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frame-input,
+.frame-parent12 {
+  width: 341px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-input {
+  border: 1px solid var(--color-lightgray-200);
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-base);
+  background-color: var(--secondary-color);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 55px;
+  flex-direction: row;
+  padding: var(--padding-mini) 22px;
+}
+.frame-parent12 {
+  height: 126.33px;
+  flex-direction: column;
+  gap: 16px;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  display: inline-block;
+  font-family: var(--font-dm-sans);
+  color: var(--secondary-color);
+  text-align: center;
+  width: 279px;
+  flex-shrink: 0;
+}
+.frame-parent11,
+.submit-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.submit-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-11xl);
+  background-color: var(--mid-blue-design);
+  border-radius: var(--br-3xs);
+  width: 339px;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frame-parent11 {
+  position: absolute;
+  top: 276px;
+  left: 0;
+  width: 341px;
+  height: 258px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-lightgray-100);
+}
+.frame-parent10 {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 1140px;
+  height: 534px;
+}
+.frame4,
+.highlight-underline-32 {
+  position: absolute;
+  top: 1332px;
+  left: 150px;
+  width: 1140px;
+  height: 547px;
+  overflow: hidden;
+}
+.highlight-underline-32 {
+  top: 392.31px;
+  left: 331px;
+  width: 226.1px;
+  height: 186.2px;
+  transform: rotate(-0.84deg);
+  transform-origin: 0 0;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 0.68%;
+  width: 20.15%;
+  top: 60.8%;
+  right: 28.9%;
+  bottom: 38.52%;
+  left: 50.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.take-a-virtual {
+  position: absolute;
+  top: 559.05px;
+  left: calc(50% - 244px);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  display: inline-block;
+  width: 463px;
+}
+.see-our-dental {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 629px;
+}
+.frame-child17 {
+  position: relative;
+  width: 1064px;
+  height: 452px;
+  object-fit: cover;
+}
+.see-our-dental-excellence-in-a-parent {
+  width: 1064px;
+  height: 683.97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 131px;
+}
+.frame-parent13,
+.frame6 {
+  width: 1064px;
+  height: 778.97px;
+}
+.frame-parent13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: 40px;
+  color: var(--dark-blue-design);
+}
+.frame6 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame5 {
+  position: absolute;
+  top: 2628px;
+  left: 175px;
+  width: 1090px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--body-text);
+}
+.frame-child18,
+.vector-icon3 {
+  position: absolute;
+  top: 554px;
+  left: 396.59px;
+  width: 1440px;
+  height: 565.51px;
+}
+.vector-icon3 {
+  height: 7.6%;
+  width: 55.53%;
+  top: 33.33%;
+  right: 13.99%;
+  bottom: 59.07%;
+  left: 30.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.our-happy-clients {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 54px;
+  font-size: inherit;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.explore-what-our {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  display: inline-block;
+  width: 479px;
+}
+.vector-group {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 479px;
+  height: 129px;
+}
+.frame-child19 {
+  position: relative;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.ranjan-kumar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.frame-child20 {
+  position: relative;
+  width: 104px;
+  height: 20px;
+}
+.ranjan-kumar-parent {
+  width: 162px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.ellipse-container {
+  width: 240px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.phosfluorescently-synergize-co {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--body-text);
+  display: inline-block;
+  width: 356px;
+}
+.deepali-sagar-parent,
+.frame-parent16 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-parent16 {
+  border-radius: var(--br-3xs);
+  background-color: var(--secondary-color);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  width: 413px;
+  height: 290px;
+  padding: var(--padding-6xl) var(--padding-8xl) var(--padding-6xl)
+    var(--padding-11xl);
+  gap: var(--gap-mini);
+}
+.deepali-sagar-parent {
+  width: 163px;
+  height: 62px;
+  padding: 0 0 0 var(--padding-11xs);
+  gap: var(--gap-8xs);
+}
+.ellipse-parent1,
+.thomas-daniel-parent {
+  width: 241px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.thomas-daniel-parent {
+  width: 173px;
+  height: 62px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.ellipse-parent3,
+.frame-parent15 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ellipse-parent3 {
+  width: 251px;
+  height: 70px;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.frame-parent15 {
+  position: absolute;
+  top: 209px;
+  left: 0;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent14 {
+  position: absolute;
+  top: 899px;
+  left: 476.59px;
+  width: 1712px;
+  height: 499px;
+}
+.precision-passion-expertise {
+  position: absolute;
+  top: 133px;
+  left: calc(50% - 239px);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  color: var(--body-text);
+  text-align: center;
+  display: inline-block;
+  width: 479px;
+}
+.group-parent1 {
+  position: absolute;
+  top: 649px;
+  left: 619px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mask-group-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 305px;
+  height: 340px;
+  object-fit: cover;
+}
+.frame-child29 {
+  position: absolute;
+  top: 234px;
+  left: 16px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    96.2deg,
+    rgba(37, 180, 248, 0.3),
+    rgba(37, 180, 248, 0)
+  );
+  backdrop-filter: blur(200px);
+  width: 273px;
+  height: 90px;
+}
+.dr-sagarmani,
+.orthodontist {
+  position: relative;
+  font-weight: 500;
+}
+.dr-sagarmani {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-family: inherit;
+}
+.orthodontist {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+}
+.dr-sagarmani-parent {
+  position: absolute;
+  top: 246px;
+  left: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.linkedin-icon1 {
+  position: absolute;
+  top: 15px;
+  left: 250px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.frame-child31,
+.mask-group-group,
+.mask-group-parent {
+  position: absolute;
+  top: 269px;
+  left: 80px;
+  width: 305px;
+  height: 340px;
+}
+.frame-child31,
+.mask-group-group {
+  left: 405px;
+}
+.frame-child31 {
+  border: 0;
+  background-color: transparent;
+  top: 234px;
+  left: 16px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    96.2deg,
+    rgba(37, 180, 248, 0.3),
+    rgba(37, 180, 248, 0)
+  );
+  backdrop-filter: blur(200px);
+  width: 273px;
+  height: 90px;
+}
+.dr-shruti-singh-parent {
+  position: absolute;
+  top: 247px;
+  left: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.mask-group-container,
+.mask-group-parent1 {
+  position: absolute;
+  top: 269px;
+  left: 730px;
+  width: 305px;
+  height: 340px;
+}
+.mask-group-parent1 {
+  left: 1055px;
+}
+.meet-our-specialists {
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 211px);
+  font-size: var(--font-size-23xl);
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--dark-blue-design);
+  text-align: center;
+}
+.precision-passion-expertise-parent {
+  position: absolute;
+  top: 0;
+  left: 396.59px;
+  background-color: var(--light-blue-design);
+  width: 1440px;
+  height: 753px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--secondary-color);
+}
+.frame8 {
+  position: relative;
+  width: 2239.01px;
+  height: 1398px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame7,
+.vector-icon4 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame7 {
+  top: 3511px;
+  left: -402.42px;
+  width: 2244.83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+.vector-icon4 {
+  height: 1.16%;
+  width: 79.25%;
+  top: 7.47%;
+  right: 10.48%;
+  bottom: 91.37%;
+  left: 10.27%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame-child33 {
+  position: absolute;
+  top: 493.5px;
+  left: 29.5px;
+  border-top: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 571px;
+  height: 1px;
+}
+.line-icon {
+  position: absolute;
+  top: 582px;
+  left: 30px;
+  width: 570px;
+  height: 2px;
+}
+.frequently-asked-questions {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 27px;
+  font-size: var(--font-size-23xl);
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+}
+.exploring-your-dental,
+.we-recommend-regular {
+  position: absolute;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  display: inline-block;
+}
+.exploring-your-dental {
+  top: 73px;
+  left: 87px;
+  font-size: var(--font-size-base);
+  color: var(--body-text);
+  text-align: center;
+  width: 455px;
+}
+.we-recommend-regular {
+  top: 89px;
+  left: 59px;
+  width: 521px;
+}
+.how-often-should {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.how-often-should-container {
+  position: absolute;
+  top: 21px;
+  left: 26px;
+  font-size: var(--font-inherit);
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-weight: 500;
+  font-family: var(--font-inherit);
+  text-align: center;
+}
+.frame-child34 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 570px;
+  height: 44px;
+}
+.we-recommend-regular-dental-ch-parent {
+  position: absolute;
+  top: 189px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--mid-blue-design);
+  width: 630px;
+  height: 220px;
+  font-size: var(--font-size-lg);
+  color: var(--secondary-color);
+}
+.can-i-see {
+  margin-bottom: 0;
+}
+.such-as-teeth {
+  margin: 0;
+}
+.alerttimes-outline-icon {
+  position: relative;
+  width: 33.94px;
+  height: 32.14px;
+}
+.can-i-see-who-reads-do-you-off-parent {
+  position: absolute;
+  top: 619px;
+  left: 32px;
+  width: 576.94px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 47px;
+  font-family: var(--font-inherit);
+}
+.what-payment-options-container {
+  position: absolute;
+  top: 442px;
+  left: 30px;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-family: var(--font-inherit);
+}
+.alerttimes-outline-icon1 {
+  position: absolute;
+  height: 4.8%;
+  width: 5.39%;
+  top: 65.77%;
+  right: 3.66%;
+  bottom: 29.43%;
+  left: 90.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.what-can-i-container {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  letter-spacing: 0.02em;
+  line-height: 155%;
+  font-family: var(--font-inherit);
+}
+.alerttimes-outline-icon2 {
+  position: absolute;
+  height: 4.8%;
+  width: 5.39%;
+  top: 78.22%;
+  right: 3.66%;
+  bottom: 16.97%;
+  left: 90.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame9,
+.frequently-asked-questions-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 630px;
+  height: 669px;
+}
+.frame9 {
+  top: 6479px;
+  left: 405px;
+  overflow: hidden;
+  font-size: var(--font-inherit);
+}
+.home-desktop1 {
+  position: relative;
+  background-color: var(--secondary-color);
+  width: 1440px;
+  height: 7843px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--dark-blue-design);
+  font-family: var(--font-dm-sans);
+}
+.home-desktop {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
