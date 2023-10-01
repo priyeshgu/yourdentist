@@ -490,6 +490,7 @@
   flex-shrink: 0;
 }
 .book-an-appointment-container {
+  border: 0px;
   position: absolute;
   top: 344px;
   left: 1px;
@@ -534,7 +535,7 @@
   left: 0;
   width: 1226.43px;
   height: 676.42px;
-  font-size: 49px;
+  font-size: 48px;
 }
 .exceptional-care-gentle,
 .patient {
