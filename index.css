@@ -53,7 +53,7 @@
   font-weight: 700;
   font-family: inherit;
   color: var(--dark-blue-design);
-  width: 522px;
+  width: 525px;
 }
 .because-your-smile {
   top: 112px;
@@ -98,7 +98,7 @@
 }
 .book-an-appointment {
   position: relative;
-  font-size: var(--font-size-base);
+ 
   letter-spacing: 0.02em;
   line-height: 155%;
   font-family: var(--font-dm-sans);
@@ -146,6 +146,7 @@
   transform-origin: 0 0;
 }
 .group-parent {
+  margin-top: 5rem;
   position: absolute;
   top: 1900px;
   left: 80px;
@@ -188,16 +189,24 @@
   display: inline-block;
   width: 455px;
 }
+.for-centering{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .news-articles-parent {
+ 
   position: absolute;
   top: 0;
   left: 4px;
-  width: 455px;
+  width: 100%;
   height: 129px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 19px;
 }
 .rectangle-icon {
@@ -485,11 +494,13 @@
   width: 531px;
 }
 .book-an-appointment1 {
+  cursor: pointer;
   position: relative;
   width: 273px;
   flex-shrink: 0;
 }
 .book-an-appointment-container {
+  cursor: pointer;
   border: 0px;
   position: absolute;
   top: 344px;
@@ -563,7 +574,7 @@
 }
 .smita-prakash-parent {
   left: 66.67px;
-  width: 93.33px;
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -737,7 +748,7 @@
 .learn-more {
   position: relative;
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 300;
 }
 .iconlylight-outlinearrow-r {
   position: relative;
@@ -808,13 +819,13 @@
   font-size: 17.5px;
   color: var(--body-text);
   display: inline-block;
-  width: 301px;
+  width: 302px;
 }
 .learn-more1 {
   top: 0;
   left: 0;
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 200;
 }
 .iconlylight-outlinearrow-r1 {
   display: none;
@@ -922,6 +933,7 @@
   margin-top: -271px;
 }
 .frame-parent8 {
+  margin-top: -14rem;
   position: absolute;
   top: 876px;
   left: 858px;
@@ -1001,7 +1013,7 @@
   text-decoration: underline;
   letter-spacing: 0.02em;
   line-height: 155%;
-  font-weight: 500;
+  font-weight: 200;
   font-family: inherit;
 }
 .iconlylight-outlinearrow-r4 {
@@ -1281,7 +1293,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 131px;
+  gap: 66px;
 }
 .frame-parent13,
 .frame6 {
