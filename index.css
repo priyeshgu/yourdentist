@@ -385,7 +385,7 @@
   gap: var(--gap-xl);
 }
 .frame-parent6 {
-  position: relative;
+  
   width: 1281px;
   height: 148px;
 }
@@ -422,9 +422,9 @@
   max-height: 100%;
 }
 .dentist-parent {
-  position: relative;
+  
   width: 291px;
-  height: 37px;
+  height: 152px;
   margin-top: -147px;
   font-size: var(--font-size-12xl);
   color: var(--dark-blue-design);

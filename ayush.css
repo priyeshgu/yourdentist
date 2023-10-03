@@ -1,0 +1,36 @@
+body{
+    font-family: 'DM Sans', sans-serif, 'Times New Roman', Times, serif;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer hr {
+    border-top: 1px solid #ccc;
+}
+.above-header-bar{
+    background-color: transparent;
+}
+.above-header-left{
+    margin-right: -4rem;
+}
+.header-container{
+    height: 5.6rem;
+    
+}
+.header-div{
+    background-color: #E6F6FE;
+    border: 0px;
+    border-radius: 0.625rem;
+}
+.review-card {
+    
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.review-card.show {
+    opacity: 1;
+}
