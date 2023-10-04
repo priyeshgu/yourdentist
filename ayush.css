@@ -1,36 +1,79 @@
-body{
-    font-family: 'DM Sans', sans-serif, 'Times New Roman', Times, serif;
+body {
+  font-family: "DM Sans", sans-serif, "Times New Roman", Times, serif;
 }
 .footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
+  background-color: #f8f9fa;
+  padding: 20px 0;
 }
 .footer hr {
-    border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
-.above-header-bar{
-    background-color: transparent;
+.above-header-bar {
+  background-color: transparent;
 }
-.above-header-left{
-    margin-right: -4rem;
+.above-header-left {
+  margin-right: -4rem;
 }
-.header-container{
-    height: 5.6rem;
-    
+.header-container {
+  height: 5.6rem;
 }
-.header-div{
-    background-color: #E6F6FE;
-    border: 0px;
-    border-radius: 0.625rem;
+.header-div {
+  background-color: #e6f6fe;
+  border: 0px;
+  border-radius: 0.625rem;
 }
 .review-card {
-    
-    top: 20px;
-    left: 20px;
-    width: 300px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+  height: 9rem;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 .review-card.show {
-    opacity: 1;
+  opacity: 1;
+}
+.services-container {
+  background-color: #e6f6fe;
+  border: 0px;
+  border-radius: 0.6rem;
+  height: 22rem;
+}
+
+.all-service-btn {
+}
+.service-card {
+  margin-top: 2rem;
+}
+.service-card-int {
+  height: 14rem;
+}
+.form-heading {
+  color: var(--Dark-Blue-Design, #011632);
+  font-family: DM Sans;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 3.28125rem */
+  text-transform: capitalize;
+}
+.form-heading-div {
+  width: 31.6875rem;
+}
+.form-subheading-div {
+  width: 33.1875rem;
+}
+
+.form-subheading {
+  color: var(--Body-text, #3c4959);
+  font-family: DM Sans;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 1.74375rem */
+  letter-spacing: 0.01688rem;
+}
+
+.form-input {
+  width:21rem;
 }
