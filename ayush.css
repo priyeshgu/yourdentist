@@ -37,7 +37,7 @@ body {
   background-color: #e6f6fe;
   border: 0px;
   border-radius: 0.6rem;
-  height: 22rem;
+  /* height: 22rem; */
 }
 
 .all-service-btn {
@@ -212,4 +212,43 @@ text-transform: capitalize;
 .team-card{
   height: 21rem;
   border-radius: 0.6rem;
+}
+
+.review-carousel {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.review {
+  display: none;
+  animation: fade 5s linear infinite;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.review img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.review .reviewer-info {
+  margin-left: 70px;
+}
+
+@keyframes fade {
+  0%, 100% {
+      opacity: 0;
+  }
+  10%, 90% {
+      opacity: 1;
+  }
 }

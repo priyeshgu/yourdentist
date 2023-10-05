@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Carousel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .carousel-wrapper {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card {
+      flex: 0 0 calc(25% - 20px); /* Adjust the width as needed */
+      margin-right: 20px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel-wrapper">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+      <div class="card">Card 4</div>
+      <div class="card">Card 5</div>
+      <div class="card">Card 6</div>
+    </div>
+    <button class="prev">Previous</button>
+    <button class="next">Next</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      const $carousel = $(".carousel");
+      const $prevButton = $(".prev");
+      const $nextButton = $(".next");
+
+      const cardCount = $carousel.children().length;
+      const cardsToShow = 4;
+      let currentIndex = 0;
+
+      $prevButton.on("click", function() {
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateCarousel();
+        }
+      });
+
+      $nextButton.on("click", function() {
+        if (currentIndex < cardCount - cardsToShow) {
+          currentIndex++;
+          updateCarousel();
+        }
+      });
+
+      // Add left and right arrow key navigation
+      $(document).keydown(function(e) {
+        if (e.key === "ArrowLeft" && currentIndex > 0) {
+          currentIndex--;
+          updateCarousel();
+        } else if (e.key === "ArrowRight" && currentIndex < cardCount - cardsToShow) {
+          currentIndex++;
+          updateCarousel();
+        }
+      });
+
+      function updateCarousel() {
+        const translateX = -currentIndex * (100 / cardsToShow);
+        $carousel.css("transform", `translateX(${translateX}%)`);
+      }
+    });
+  </script>
+</body>
+</html>
