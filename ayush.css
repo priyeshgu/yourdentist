@@ -1,27 +1,34 @@
 body {
   font-family: "DM Sans", sans-serif, "Times New Roman", Times, serif;
 }
+
 .footer {
   background-color: #f8f9fa;
   padding: 20px 0;
 }
+
 .footer hr {
   border-top: 1px solid #ccc;
 }
+
 .above-header-bar {
   background-color: transparent;
 }
+
 .above-header-left {
   margin-right: -4rem;
 }
+
 .header-container {
   height: 5.6rem;
 }
+
 .header-div {
   background-color: #e6f6fe;
   border: 0px;
   border-radius: 0.625rem;
 }
+
 .review-card {
   height: 9rem;
   top: 20px;
@@ -30,9 +37,11 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
+
 .review-card.show {
   opacity: 1;
 }
+
 .services-container {
   background-color: #e6f6fe;
   border: 0px;
@@ -40,26 +49,29 @@ body {
   /* height: 22rem; */
 }
 
-.all-service-btn {
-}
 .service-card {
   margin-top: 2rem;
 }
+
 .service-card-int {
   height: 14rem;
 }
+
 .form-heading {
   color: var(--Dark-Blue-Design, #011632);
   font-family: DM Sans;
   font-size: 2.625rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 3.28125rem */
+  line-height: 125%;
+  /* 3.28125rem */
   text-transform: capitalize;
 }
+
 .form-heading-div {
   width: 31.6875rem;
 }
+
 .form-subheading-div {
   width: 33.1875rem;
 }
@@ -70,24 +82,29 @@ body {
 
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 1.74375rem */
+  line-height: 155%;
+  /* 1.74375rem */
   letter-spacing: 0.01688rem;
 }
 
 .form-input {
   width: 21rem;
 }
+
 .form-section-img {
   margin-left: 7rem;
   width: 75%;
 }
+
 .why-us-img {
   width: 24.5rem;
 }
+
 .why-us-div {
   background-color: #e6f6fe;
   padding: 2rem 4rem;
 }
+
 .why-us-heading {
   color: var(--Dark-Blue-Design, #011632);
 
@@ -98,24 +115,29 @@ body {
   text-transform: capitalize;
   width: 29rem;
 }
+
 .why-us-subheading {
   color: var(--Body-text, #3c4959);
 
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 1.55rem */
+  line-height: 155%;
+  /* 1.55rem */
   letter-spacing: 0.015rem;
 }
+
 .why-us-list {
   margin-left: -2rem;
   list-style-image: none;
 }
+
 .why-us-list li {
   list-style-type: none;
   background-image: none;
   padding-left: 1px;
 }
+
 .why-us-list li::before {
   content: "";
   background-image: url("./assets/custome-bullet-point.svg");
@@ -126,12 +148,15 @@ body {
   margin-right: 10px;
   vertical-align: middle;
 }
+
 .why-us-list-item {
   margin-bottom: 0.75rem;
 }
+
 .why-us-btn {
   padding: 0.5rem 0.95rem;
 }
+
 .video-sec-heading {
   color: var(--Dark-Blue-Design, #011632);
   text-align: center;
@@ -139,22 +164,27 @@ body {
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 3.125rem */
+  line-height: 125%;
+  /* 3.125rem */
   text-transform: capitalize;
 }
+
 .video-frame {
   margin-top: 3rem;
   width: 64rem;
   height: 30rem;
 }
+
 .team-heading {
   font-family: DM Sans;
   font-size: 2.625rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 3.28125rem */
+  line-height: 125%;
+  /* 3.28125rem */
   text-transform: capitalize;
 }
+
 .team-subheading {
   color: var(--Body-text, #3c4959);
   text-align: center;
@@ -162,7 +192,8 @@ body {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 1.74375rem */
+  line-height: 155%;
+  /* 1.74375rem */
   letter-spacing: 0.01688rem;
 }
 
@@ -170,33 +201,32 @@ body {
   position: relative;
   top: -7rem;
   left: 0.5rem;
-  
+
   margin-left: 0.5rem;
   width: 17rem;
   height: 5.625rem;
   flex-shrink: 0;
   border-radius: 0.625rem;
-  background: var(
---Linear-2,
-linear-gradient(
-96deg,
-rgba(37, 180, 248, 0.3) 0%,
-rgba(37, 180, 248, 0) 100%
-)
-);
+  background: var(--Linear-2,
+      linear-gradient(96deg,
+        rgba(37, 180, 248, 0.3) 0%,
+        rgba(37, 180, 248, 0) 100%));
   backdrop-filter: blur(100px);
 }
-.card-name{
-  color: var(--Secondary-color, #FFF);
-font-family: DM Sans;
-font-size: 2rem;
-font-style: normal;
-font-weight: 500;
-line-height: 120%; /* 1.8rem */
-text-transform: capitalize;
+
+.card-name {
+  color: var(--Secondary-color, #fff);
+  font-family: DM Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 1.8rem */
+  text-transform: capitalize;
 }
-.card-subname{
-  color: var(--Secondary-color, #FFF);
+
+.card-subname {
+  color: var(--Secondary-color, #fff);
   font-family: DM Sans;
   font-size: 1rem;
   font-style: normal;
@@ -204,12 +234,14 @@ text-transform: capitalize;
   line-height: 120%;
   text-transform: capitalize;
 }
-.team-container{
+
+.team-container {
   width: 100%;
-  background-color: #E6F6FE;
+  background-color: #e6f6fe;
   height: 40rem;
 }
-.team-card{
+
+.team-card {
   height: 21rem;
   border-radius: 0.6rem;
 }
@@ -245,10 +277,104 @@ text-transform: capitalize;
 }
 
 @keyframes fade {
-  0%, 100% {
-      opacity: 0;
+
+  0%,
+  100% {
+    opacity: 0;
   }
-  10%, 90% {
-      opacity: 1;
+
+  10%,
+  90% {
+    opacity: 1;
   }
+}
+
+.review-tile {
+  border: none;
+  height: 20rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-img {
+  width: 4.3rem;
+  height: 4.3rem;
+}
+
+.card-text {
+  line-height: 155%;
+  letter-spacing: 0.015rem;
+}
+
+.testimonial-tile-heading {
+  margin-top: -0.5rem;
+  margin-left: -2rem;
+}
+
+.blog-heading {
+  color: var(--Dark-Blue-Design, #011632);
+  font-family: DM Sans;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 3.28125rem */
+  text-transform: capitalize;
+}
+
+.blog-subheading {
+  color: var(--Body-text, #3C4959);
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 1.74375rem */
+  letter-spacing: 0.01688rem;
+}
+
+.blog-img {
+  width: 16rem;
+}
+
+.blog-card {
+  width: 19.0625rem;
+  height: 28.25rem;
+  border-radius: 0.625rem;
+  background: #E6F6FE;
+}
+
+.blog-tag-btn {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  background-color: black;
+}
+
+.blog-card-heading {
+
+
+  font-size: 1.125rem;
+
+  font-weight: 500;
+  line-height: 155%;
+  letter-spacing: 0.01688rem;
+}
+
+.blog-card-subheading {
+  color: var(--Body-text, #3C4959);
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 1.74375rem */
+  letter-spacing: 0.01688rem;
+}
+.blog-heading-text{
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.blog-mr{
+  margin-right: 5rem;
 }

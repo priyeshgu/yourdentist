@@ -65,8 +65,22 @@ function rotateReviews() {
 setInterval(rotateReviews, 5000);
 
 // Initial display of the first review
+
+
 const initialReview = document.querySelector('.review');
 if (initialReview) {
     initialReview.style.display = 'block';
     initialReview.classList.add('active');
 }
+
+const toggleButton = document.getElementById('toggleServices');
+
+  toggleButton.addEventListener('click', function () {
+    const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+
+    if (isExpanded) {
+      toggleButton.textContent = 'View Less';
+    } else {
+      toggleButton.textContent = 'View More';
+    }
+  });
