@@ -32,6 +32,9 @@ body {
 .hero-container {
   margin-bottom: -9.1rem;
 }
+.hero-left{
+  margin-top: -1rem;
+}
 .hero-heading {
   font-size: 2.5rem;
   font-weight: 700;
@@ -124,9 +127,34 @@ body {
 }
 
 .form-section-img {
+  
   margin-left: 7rem;
   width: 75%;
 }
+.form-img-container{
+  background-color: transparent;
+  position: relative;
+}
+
+
+.form-img-container::before {
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -2.1rem;
+  left: 24%;
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(
+  52.56deg,
+  rgba(37, 180, 248, 0),
+  rgba(37, 180, 248, 0.47) 51.04%,
+  #25b4f8
+);
+  
+  z-index: -1;
+}
+
 
 .why-us-img {
   width: 24.5rem;
@@ -290,12 +318,14 @@ body {
 }
 
 .review {
+  border-radius: 1.04169rem;
+  background: #FFF;
+  box-shadow: 0px 8.33333px 41.66666px 0px rgba(0, 0, 0, 0.08);
   display: none;
   animation: fade 5s linear infinite;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: none;
   margin-bottom: 15px;
-  border-radius: 5px;
   position: relative;
 }
 
@@ -413,4 +443,31 @@ body {
 
 .blog-mr {
   margin-right: 5rem;
+}
+.faq-heading-texts{
+  text-align: center;
+}
+.faq-heading{
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+.faq-subheading{
+    
+    letter-spacing: 0.015rem;
+}
+#faqAccordion{
+  width: 39.375rem;
+}
+.accordion-container{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-top: 2rem;
+}
+.map-container{
+  text-align: center;
+}
+.map-iframe{
+  width: 100%;
 }

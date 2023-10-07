@@ -82,8 +82,10 @@
   <!--Hero Section Start-->
   <div class="container mt-5 hero-container">
     <div class="row">
-      <div class="col-lg-6">
-        <h2 class="hero-heading">Where Smiles Shine Bright : Telaiya's Premier Dental clinic </h2>
+      <div class="col-lg-6 hero-left">
+        <h2 class="hero-heading">
+          Where Smiles Shine Bright : Telaiya's Premier Dental clinic
+        </h2>
         <h5 class="hero-subheading">
           At our clinic, we blend compassion with expertise to create lasting
           smiles. Discover the difference of top-tier dental care in the city
@@ -98,7 +100,9 @@
               <h5>Reviewer Name 1</h5>
               <p>Patient</p>
             </div>
-            <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="review-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
 
           <!-- Review 2 -->
@@ -108,7 +112,9 @@
               <h5>Reviewer Name 2</h5>
               <p>Patient</p>
             </div>
-            <p class="review-text">Integer sed lacus vel ligula placerat bibendum eu a urna.</p>
+            <p class="review-text">
+              Integer sed lacus vel ligula placerat bibendum eu a urna.
+            </p>
           </div>
 
           <!-- Review 3 -->
@@ -125,7 +131,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6 m  ">
+      <div class="col-lg-6 m">
         <img class="hero-img" src="./assets/dental-didi.svg" />
       </div>
     </div>
@@ -189,7 +195,7 @@
 
       <!-- View All Services Button -->
       <div class="d-flex flex-row justify-content-center all-service-btn">
-        <button class="btn btn-primary mt-4" id="toggleServices" data-bs-toggle="collapse"
+        <button class="mb-4 btn btn-primary mt-4" id="toggleServices" data-bs-toggle="collapse"
           data-bs-target=".additional-service" aria-expanded="false">
           View More
         </button>
@@ -234,7 +240,9 @@
       </div>
       <div class="col-md-6">
         <!-- Image -->
-        <img src="./assets/form-section.png" class="form-section-img alt=" Right Side Image">
+        <div class="form-img-container">
+        <img src="./assets/form-section.png" class="form-section-img" alt=" Right Side Image">
+      </div>
       </div>
     </div>
   </div>
@@ -574,7 +582,7 @@
   </div>
   <!--Testimonial End-->
   <!--Blog Start-->
-  <div class=" mt-5 blog-container">
+  <div class="mt-5 blog-container">
     <div class="text-center">
       <h1 class="blog-heading">News & Articles</h1>
       <p class="blog-subheading">
@@ -590,7 +598,9 @@
                 <img class="blog-img" src="./assets/blog1.png" alt="" />
               </div>
               <div class="card-details">
-                <button class="btn btn-primary blog-tag-btn">Self Care</button>
+                <button class="btn btn-primary blog-tag-btn">
+                  Self Care
+                </button>
                 <div class="blog-heading-text">
                   <h1 class="blog-card-heading">Care of your Teeth</h1>
                   <p class="blog-card-subheading">
@@ -611,7 +621,9 @@
                 <img class="blog-img" src="./assets/blog1.png" alt="" />
               </div>
               <div class="card-details">
-                <button class="btn btn-primary blog-tag-btn">Self Care</button>
+                <button class="btn btn-primary blog-tag-btn">
+                  Self Care
+                </button>
                 <div class="blog-heading-text">
                   <h1 class="blog-card-heading">Care of your Teeth</h1>
                   <p class="blog-card-subheading">
@@ -632,7 +644,9 @@
                 <img class="blog-img" src="./assets/blog1.png" alt="" />
               </div>
               <div class="card-details">
-                <button class="btn btn-primary blog-tag-btn">Self Care</button>
+                <button class="btn btn-primary blog-tag-btn">
+                  Self Care
+                </button>
                 <div class="blog-heading-text">
                   <h1 class="blog-card-heading">Care of your Teeth</h1>
                   <p class="blog-card-subheading">
@@ -653,7 +667,9 @@
                 <img class="blog-img" src="./assets/blog1.png" alt="" />
               </div>
               <div class="card-details">
-                <button class="btn btn-primary blog-tag-btn">Self Care</button>
+                <button class="btn btn-primary blog-tag-btn">
+                  Self Care
+                </button>
                 <div class="blog-heading-text">
                   <h1 class="blog-card-heading">Care of your Teeth</h1>
                   <p class="blog-card-subheading">
@@ -755,12 +771,9 @@
         </div>
       </div>
 
-
-
-
       <!-- View All Services Button -->
       <div class="d-flex flex-row justify-content-center all-service-btn">
-        <button class="btn btn-primary mt-4" id="toggleServices" data-bs-toggle="collapse"
+        <button class="btn btn-primary mt-4" id="blogServices" data-bs-toggle="collapse"
           data-bs-target=".additional-service" aria-expanded="false">
           View More
         </button>
@@ -768,63 +781,72 @@
     </div>
   </div>
   <!--blog End-->
+  <!--FAQ Start-->
   <div class="container mt-5">
-    <h2>FAQ</h2>
-
+    <div class="faq-heading-texts">
+      <h2 class="faq-heading">Frequently Asked Questions</h2>
+      <p class="faq-subheading">
+        Exploring Your Dental Concerns: Find Comprehensive Answers to Common
+        Queries.
+      </p>
+    </div>
     <!-- FAQ Accordions -->
-    <div class="accordion" id="faqAccordion">
-      <!-- FAQ Question 1 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
-            aria-expanded="true" aria-controls="faqCollapse1">
-            Question 1
-          </button>
-        </h2>
-        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
-          data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Answer to Question 1. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+    <div class="accordion-container d-flex flex-row justify-content-center">
+      <div class="accordion" id="faqAccordion">
+        <!-- FAQ Question 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
+              aria-expanded="true" aria-controls="faqCollapse1">
+              Question 1
+            </button>
+          </h2>
+          <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer to Question 1. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- FAQ Question 2 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-            Question 2
-          </button>
-        </h2>
-        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
-          data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Answer to Question 2. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+        <!-- FAQ Question 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+              Question 2
+            </button>
+          </h2>
+          <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer to Question 2. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- FAQ Question 3 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-            Question 3
-          </button>
-        </h2>
-        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
-          data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Answer to Question 3. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+        <!-- FAQ Question 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+              Question 3
+            </button>
+          </h2>
+          <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer to Question 3. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!--FAQ End-->
   <div class="footer">
     <div class="container">
       <div class="row">
@@ -855,9 +877,9 @@
         <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
       </div>
       <!-- Map (you can embed your map here) -->
-      <div class="mt-4">
+      <div class="mt-4 map-container">
         <!-- Embed your map here using an iframe or other method -->
-        <iframe
+        <iframe class="map-iframe"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.241320488438!2d-122.08273478425347!3d37.38605197984646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580bea13831db%3A0x164a71ac5f9d8f13!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1617629351860!5m2!1sen!2sus"
           width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
       </div>
