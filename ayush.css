@@ -61,6 +61,14 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
+.review-box {
+  width: 23.375rem;
+  height: 9.3125rem;
+}
+.review-text{
+  margin-top: -0.5rem;
+  padding: 0.5rem;
+}
 
 .review-card.show {
   opacity: 1;
@@ -301,7 +309,8 @@ body {
 }
 
 .review .reviewer-info {
-  margin-left: 70px;
+  margin-top: 0.3rem;
+  margin-left: 4.35rem;
 }
 
 @keyframes fade {
