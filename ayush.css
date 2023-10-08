@@ -50,10 +50,13 @@ body {
   letter-spacing: 0.01688rem;
 }
 .hero-img {
+  position: relative;
+  top: -5rem;
+  left: -14rem;
   margin-right: 3rem;
   margin-top: -7rem;
-  width: 127%;
-  height: 121%;
+  width: 65rem;
+  height: 66rem;
 }
 
 .review-card {
@@ -470,4 +473,11 @@ body {
 }
 .map-iframe{
   width: 100%;
+}
+.header-item{
+  color: var(--Dark-Blue-Design, #011632);
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 155%;
+  letter-spacing: 0.015rem;
 }
