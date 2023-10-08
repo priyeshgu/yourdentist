@@ -36,6 +36,9 @@ body {
   margin-top: -1rem;
 }
 .hero-heading {
+  width: 102%;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 120%;
@@ -43,13 +46,15 @@ body {
   text-transform: capitalize;
 }
 .hero-subheading {
-  width: 33.1875rem;
+  margin-bottom: 3rem;
+  width: 29.1875rem;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 155%;
   letter-spacing: 0.01688rem;
 }
 .hero-img {
+  margin-bottom: -9rem;
   position: relative;
   top: -5rem;
   left: -14rem;
