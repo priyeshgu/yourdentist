@@ -106,6 +106,9 @@ body {
   height: 14rem;
 }
 
+.form-container{
+  margin-top: 5rem;
+}
 .form-heading {
   color: var(--Dark-Blue-Design, #011632);
   font-family: DM Sans;
@@ -116,8 +119,15 @@ body {
   /* 3.28125rem */
   text-transform: capitalize;
 }
+.form-underline{
+  position: relative;
+  top: -13rem;
+  left: 8rem;
+  width: 15rem;
+}
 
 .form-heading-div {
+  margin-bottom: -10rem;
   width: 31.6875rem;
 }
 
@@ -137,7 +147,27 @@ body {
 }
 
 .form-input {
+  margin-bottom: -3rem;
   width: 21rem;
+}
+.form-name-placeholder{
+  color: #cfcfcf;
+  position: relative;
+  top: -2.5rem;
+  left: 1rem;
+}
+.form-text-input{
+  height: 3.5rem;
+}
+.input-icon{
+  margin-right: 0.5rem;
+  margin-top: 0.7rem;
+  color: #cfcfcf;
+}
+.form-submit-btn{
+  margin-top: 2rem;
+  width: 21rem;
+  height: 3.1rem;
 }
 
 .form-section-img {
@@ -156,16 +186,15 @@ body {
   content: "";
   position: absolute;
   top: -2.1rem;
-  left: 24%;
+  left: 26%;
   width: 75%;
   height: 100%;
   background: linear-gradient(
-  52.56deg,
-  rgba(37, 180, 248, 0),
-  rgba(37, 180, 248, 0.47) 51.04%,
-  #25b4f8
+52.56deg,
+rgba(37, 180, 248, 0),
+rgba(37, 180, 248, 0.47) 51.04%,
+#25b4f8
 );
-  
   z-index: -1;
 }
 
