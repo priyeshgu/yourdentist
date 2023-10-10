@@ -102,3 +102,34 @@ blogServices.addEventListener('click', function () {
       blogServices.textContent = 'View More';
     }
   });
+
+   //script for slider 
+   let specialistsCarousel1; // Declare the variable here
+
+    document.addEventListener("DOMContentLoaded", function() {
+      console.log("DOMContentLoaded event fired");
+        specialistsCarousel1 = new bootstrap.Carousel(document.getElementById('specialistsCarousel1'), {
+            interval: false // Disable automatic sliding
+        });
+    });
+    
+
+    function nextCard() {
+        specialistsCarousel1.next();
+    }
+
+    function prevCard() {
+        specialistsCarousel1.prev();
+    }
+
+    //slider for testimonials
+    let testimonialCarousel; // Declare the variable here
+    testimonialCarousel = new bootstrap.Carousel(document.getElementById('testimonialCarousel'),{
+      interval: false // Disable automatic sliding
+    });
+    function nextCard1(){
+      testimonialCarousel.next();
+    }
+    function prevCard1(){
+      testimonialCarousel.prev();
+    }

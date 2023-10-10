@@ -303,32 +303,30 @@ rgba(37, 180, 248, 0.47) 51.04%,
 .name-card {
   position: relative;
   top: -7rem;
-  left: 0.5rem;
-
+  left: 0rem;
   margin-left: 0.5rem;
-  width: 17rem;
+  width: 14.5rem;
   height: 5.625rem;
   flex-shrink: 0;
   border-radius: 0.625rem;
   background: var(
-    --Linear-2,
-    linear-gradient(
-      96deg,
-      rgba(37, 180, 248, 0.3) 0%,
-      rgba(37, 180, 248, 0) 100%
-    )
-  );
+  --Linear-2,
+  linear-gradient(
+    96deg,
+    rgba(37, 180, 248, 0.3) 0%,
+    rgba(37, 180, 248, 0) 100%
+  )
+);
   backdrop-filter: blur(100px);
 }
 
 .card-name {
   color: var(--Secondary-color, #fff);
   font-family: DM Sans;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  /* 1.8rem */
   text-transform: capitalize;
 }
 
@@ -345,11 +343,11 @@ rgba(37, 180, 248, 0.47) 51.04%,
 .team-container {
   width: 100%;
   background-color: #e6f6fe;
-  height: 40rem;
+  height: 34rem;
 }
 
 .team-card {
-  height: 20.5rem;
+  height: 17rem;
   border-radius: 0.6rem;
 }
 
@@ -521,3 +519,5 @@ rgba(37, 180, 248, 0.47) 51.04%,
   line-height: 155%;
   letter-spacing: 0.015rem;
 }
+
+

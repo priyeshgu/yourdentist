@@ -1,96 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Card Carousel</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .carousel-container {
-      overflow: hidden;
-      position: relative;
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    .carousel-wrapper {
-      display: flex;
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .card {
-      flex: 0 0 calc(25% - 20px); /* Adjust the width as needed */
-      margin-right: 20px;
-      padding: 10px;
-      background-color: #f0f0f0;
-      border: 1px solid #ccc;
-    }
-
-    button {
-      margin-top: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 Testimonial Slider Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
+<style>
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: rgb(189 186 186);
+        font-family: system-ui;
+    }
+
+    #demo {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h2 {
+        display: inline-block;
+        padding: 1.5em;
+        text-align: center;
+        vertical-align: top;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 26px;
+        line-height: 28px;
+        color: black;
+    }
+
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+
+    p {
+        margin: 0px;
+        display: inline-block;
+        padding: 1em;
+        vertical-align: top;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        color: #f06d06;
+    }
+
+    @media (max-width: 767px) {
+        .carousel-caption {
+            position: initial;
+            z-index: 10;
+            padding: 1rem;
+            color: rgba(78, 77, 77, 0.856);
+            text-align: center;
+            font-size: 0.7rem;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 1.5rem;
+        }
+    }
+
+    #image-caption {
+        font-style: normal;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        color: #f06d06;
+    }
+
+    @media (max-width: 767px) {
+        #image-caption {
+            font-style: normal;
+            font-size: 0.6rem;
+            margin-top: 0.5rem;
+        }
+    }
+
+    i {
+        background-color: #343a40;
+        padding: 1rem;
+        color: white;
+    }
+
+    @media (max-width: 767px) {
+        i {
+            padding: 0.8rem;
+        }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: none;
+        opacity: unset;
+        bottom: 0;
+        text-align: center;
+        /* width: 100%; */
+    }
+
+    .carousel-control-prev {
+        margin-top: 15rem;
+        margin-left: 22rem;
+        /* left: 0; */
+    }
+
+    .carousel-control-next {
+        margin-top: 15rem;
+        margin-right: 22rem;
+        /* right: 0; */
+    }
+</style>
 <body>
-  <div class="carousel-container">
-    <div class="carousel-wrapper">
-      <div class="card">Card 1</div>
-      <div class="card">Card 2</div>
-      <div class="card">Card 3</div>
-      <div class="card">Card 4</div>
-      <div class="card">Card 5</div>
-      <div class="card">Card 6</div>
+<div class="container">
+    <h2>Bootstrap 4 testimonial slider example</h2>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <!-- Testimonial 1 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client1</div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client2</div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <!-- Testimonial 4 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client4</div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client5</div>
+                    </div>
+                    <!-- Testimonial 6 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <!-- Testimonial 7 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client7</div>
+                    </div>
+                    <!-- Testimonial 8 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client8</div>
+                    </div>
+                    <!-- Testimonial 9 -->
+                    <div class="col-md-4 text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div id="image-caption">Client9</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev"><i class="fas fa-arrow-left"></i></a>
+        <a class="carousel-control-next" href="#demo" data-slide="next"><i class="fas fa-arrow-right"></i></a>
     </div>
-    <button class="prev">Previous</button>
-    <button class="next">Next</button>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      const $carousel = $(".carousel");
-      const $prevButton = $(".prev");
-      const $nextButton = $(".next");
-
-      const cardCount = $carousel.children().length;
-      const cardsToShow = 4;
-      let currentIndex = 0;
-
-      $prevButton.on("click", function() {
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
-        }
-      });
-
-      $nextButton.on("click", function() {
-        if (currentIndex < cardCount - cardsToShow) {
-          currentIndex++;
-          updateCarousel();
-        }
-      });
-
-      // Add left and right arrow key navigation
-      $(document).keydown(function(e) {
-        if (e.key === "ArrowLeft" && currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
-        } else if (e.key === "ArrowRight" && currentIndex < cardCount - cardsToShow) {
-          currentIndex++;
-          updateCarousel();
-        }
-      });
-
-      function updateCarousel() {
-        const translateX = -currentIndex * (100 / cardsToShow);
-        $carousel.css("transform", `translateX(${translateX}%)`);
-      }
-    });
-  </script>
+</div>
 </body>
 </html>
