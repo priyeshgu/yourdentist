@@ -223,9 +223,11 @@
         <!-- Form -->
         <form>
           <div class="form-input">
-            <label for="fullName form-input" class="form-label"></label>
-            <input type="text" class="form-control form-text-input" id="fullName" name="fullName" required="" />
-            <div class="form-name-placeholder d-flex flex-row ">
+            
+              <label for="fullName form-input" class="form-label"></label>
+            <input type="text" class="form-control form-text-input" id="fullName" name="fullName" required=""  />
+            
+          <div class="form-name-placeholder1 d-flex flex-row" id="ph1" onclick="hidePh()"  >
               <i class="fa-solid fa-user fa-lg input-icon" style="color: #cfcfcf;"></i>
               <p> Enter Your Name</p>
             </div>
@@ -233,7 +235,7 @@
           <div class="form-input">
             <label for="email" class="form-label"></label>
             <input type="email" class="form-control from-input form-text-input" id="email" name="email" required="" />
-            <div class="form-name-placeholder d-flex flex-row ">
+            <div class="form-name-placeholder2 d-flex flex-row ">
               <i class="fa-solid fa-phone fa-lg input-icon" style="color: #cfcfcf;"></i>
               <p>Enter Your Mobile Number</p>
             </div>
@@ -242,7 +244,7 @@
             <label for="message" class="form-label"></label>
             <input type="text" class="form-control from-input form-text-input" id="message" name="message"
               required="" />
-            <div class="form-name-placeholder d-flex flex-row ">
+            <div class="form-name-placeholder3 d-flex flex-row ">
               <i class="fa-solid fa-pencil fa-lg input-icon" style="color: #cfcfcf;"></i>
               <p>Enter Your Message</p>
             </div>
@@ -1053,6 +1055,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   
   <script src="./script.js"></script>
+
 
 
 

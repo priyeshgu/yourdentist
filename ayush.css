@@ -150,7 +150,19 @@ body {
   margin-bottom: -3rem;
   width: 21rem;
 }
-.form-name-placeholder{
+.form-name-placeholder1{
+  color: #cfcfcf;
+  position: relative;
+  top: -2.5rem;
+  left: 1rem;
+}
+.form-name-placeholder2{
+  color: #cfcfcf;
+  position: relative;
+  top: -2.5rem;
+  left: 1rem;
+}
+.form-name-placeholder3{
   color: #cfcfcf;
   position: relative;
   top: -2.5rem;

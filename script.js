@@ -133,3 +133,14 @@ blogServices.addEventListener('click', function () {
     function prevCard1(){
       testimonialCarousel.prev();
     }
+
+    //form placeholder hiding
+    inputField = document.getElementById('fullName');
+    function hidePh(){
+      console.log("clicked");
+      let ph1 = document.getElementById('ph1');
+      ph1.style.display = "none";
+    }
+    
+
+   
