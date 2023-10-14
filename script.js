@@ -69,7 +69,6 @@ blogServices.addEventListener('click', function () {
    let specialistsCarousel1; // Declare the variable here
 
     document.addEventListener("DOMContentLoaded", function() {
-      console.log("DOMContentLoaded event fired");
         specialistsCarousel1 = new bootstrap.Carousel(document.getElementById('specialistsCarousel1'), {
             interval: false // Disable automatic sliding
         });
@@ -96,13 +95,38 @@ blogServices.addEventListener('click', function () {
       testimonialCarousel.prev();
     }
 
-    //form placeholder hiding
-    inputField = document.getElementById('fullName');
-    function hidePh(){
-      console.log("clicked");
-      let ph1 = document.getElementById('ph1');
-      ph1.style.display = "none";
-    }
-    
-
    
+    // icon show hide code
+// Get all elements with the class 'form-text-input'
+const inputFields = document.querySelectorAll('.form-text-input');
+
+inputFields.forEach(inputField => {
+  const icon = inputField.nextElementSibling;
+  let isPlaceholderHidden = false;
+
+  inputField.addEventListener('input', () => {
+    if (inputField.value.trim() === '') {
+      icon.style.display = 'block';
+      isPlaceholderHidden = false;
+    } else {
+      icon.style.display = 'none';
+      isPlaceholderHidden = true;
+    }
+  });
+
+  // Initial check when the page loads
+  if (inputField.value.trim() !== '') {
+    icon.style.display = 'none';
+    isPlaceholderHidden = true;
+  } else {
+    icon.style.display = 'block';
+    isPlaceholderHidden = false;
+  }
+
+  inputField.addEventListener('blur', () => {
+    if (inputField.value.trim() === '') {
+      icon.style.display = 'block';
+      isPlaceholderHidden = false;
+    }
+  });
+});

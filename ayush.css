@@ -1,5 +1,6 @@
 body {
   font-family: "DM Sans", sans-serif, "Times New Roman", Times, serif;
+  overflow-x: hidden;
 }
 
 .footer {
@@ -127,8 +128,7 @@ body {
 }
 
 .form-heading-div {
-  margin-bottom: -10rem;
-  width: 31.6875rem;
+ width: 31rem;
 }
 
 .form-subheading-div {
@@ -136,18 +136,21 @@ body {
 }
 
 .form-subheading {
+  position: relative;
+  top: -10rem;
   color: var(--Body-text, #3c4959);
   font-family: DM Sans;
-
   font-style: normal;
   font-weight: 400;
   line-height: 155%;
-  /* 1.74375rem */
   letter-spacing: 0.01688rem;
 }
-
+.form-div{
+  position: relative;
+  top: -11rem;
+}
 .form-input {
-  margin-bottom: -3rem;
+  margin-bottom: -1rem;
   width: 21rem;
 }
 .form-name-placeholder1{
@@ -172,9 +175,15 @@ body {
   height: 3.5rem;
 }
 .input-icon{
-  margin-right: 0.5rem;
-  margin-top: 0.7rem;
-  color: #cfcfcf;
+  width: 0rem;
+  position: relative;
+  top: -2.25rem;
+  left: 1rem;
+}
+.form-text-input::placeholder {
+  position: relative;
+  left: 2rem;
+  color: #cfcfcf; /* Replace with your desired color value */
 }
 .form-submit-btn{
   margin-top: 2rem;

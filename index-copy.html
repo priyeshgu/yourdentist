@@ -1,143 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Specialists Carousel</title>
-    <!-- Add Bootstrap CSS and JavaScript -->
-    <link rel="stylesheet" href="ayush.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="ayush.css" />
+  <title>Document</title>
 </head>
 <body>
-  <div class="mt-5 container team-container">
-    <div class="py-3 px-4">
-        <h2 class="text-center team-heading">Meet Our Specialists</h2>
-        <p class="text-center team-subheading">
-            Precision. Passion. Expertise. Meet Our Dental Pioneers
-        </p>
-
-        <!-- Card carousel -->
-        <div id="specialistsCarousel" class="carousel slide mt-4" data-ride="carousel">
-            <div class="carousel-inner">
-                <!-- Specialist Cards Group 1 -->
-                <div class="carousel-item active">
-                    <div class="row justify-content-center">
-                        <!-- Specialist Card 1 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 2 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 3 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 4 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Specialist Cards Group 2 -->
-                <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <!-- Specialist Card 5 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 6 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 7 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Specialist Card 8 -->
-                        <div class="col-md-3">
-                          <div class="card mb-3 border-0 team-card">
-                            <img src="./assets/team1.png" class="card-img-top" alt="Specialist 1" />
-                            <div class="card-body name-card">
-                              <h5 class="card-title card-name">Dr. John Doe</h5>
-                              <p class="card-text card-subname">Dental Surgeon</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Navigation buttons -->
-            <div class="text-center mt-5">
-                <img src="./assets/left-arrow.svg" alt="" onclick="prevCard()">
-                <img src="./assets/right-arrow.svg" alt="" onclick="nextCard()">
-            </div>
+  <div class="container  form-container" id="contact">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-heading-div">
+          <h2 class="form-heading">
+            We’re welcoming new patients and can’t wait to meet you.
+          </h2>
+          <img class="form-underline" src="./assets/underline-form.svg" alt="">
         </div>
+        <div class="fom-subheading-div">
+          <p class="form-subheading">
+            Discover a dental experience that's truly patient-centric. New
+            patients, we're here to elevate your smiles
+          </p>
+        </div>
+        <!-- Form -->
+        <form>
+          <div class="form-input">
+            <div class="inputContainer">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control " id="fullName" name="fullName" required " />
+            </div>
+          </div>
+          
+          <div class="form-input">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control " id="email" name="email" required />
+            
+          </div>
+          
+          <div class="form-input">
+            <label for="message" class="form-label">Message</label>
+            <input type="text" class="form-control " id="message" name="message" required />
+            
+          </div>
+          
+          <button type="submit" class="btn btn-primary form-submit-btn">
+            Submit
+          </button>
+        </form>
+        
+      </div>
+      <div class="col-md-6">
+        <!-- Image -->
+        <div class="form-img-container">
+          <img src="./assets/form-section.png" class="form-section-img" alt=" Right Side Image">
+        </div>
+      </div>
     </div>
   </div>
 
-    <!-- Add Bootstrap and jQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script>
-        // JavaScript to handle card navigation
-        const specialistsCarousel = new bootstrap.Carousel(document.getElementById('specialistsCarousel'), {
-            interval: false // Disable automatic sliding
-        });
+  <script src="https://kit.fontawesome.com/527ee7a51c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="./script.js"></script>
 
-        function nextCard() {
-            specialistsCarousel.next();
-        }
-
-        function prevCard() {
-            specialistsCarousel.prev();
-        }
-    </script>
 </body>
 </html>
