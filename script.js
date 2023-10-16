@@ -130,3 +130,35 @@ inputFields.forEach(inputField => {
     }
   });
 });
+// Get all accordion buttons
+const accordionButtons = document.querySelectorAll('.accordion-button');
+// Get all hr elements
+const hrElements = document.querySelectorAll('.hrContainer hr');
+
+// Create an array to keep track of the expanded items
+const expandedItems = new Array(accordionButtons.length).fill(false);
+
+// Add a click event listener to each accordion button
+accordionButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+    // If the accordion item is expanded, hide the hr element
+    if (isExpanded) {
+      hrElements[index].style.display = 'none';
+    } else {
+      // If the accordion item is collapsed, show the hr element
+      hrElements[index].style.display = 'block';
+    }
+
+    // Update the expanded items array
+    expandedItems[index] = isExpanded;
+
+    // Show horizontal lines for collapsed items
+    for (let i = 0; i < expandedItems.length; i++) {
+      if (!expandedItems[i]) {
+        hrElements[i].style.display = 'block';
+      }
+    }
+  });
+});

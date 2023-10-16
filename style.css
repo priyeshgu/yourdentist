@@ -540,5 +540,44 @@ rgba(37, 180, 248, 0.47) 51.04%,
   line-height: 155%;
   letter-spacing: 0.015rem;
 }
+.accContainer{
+  width: 50%;
+   
+}
+.accordion-button::after {
+   background-image: url(./assets/plus-accordion.svg);
+}
+.accordion-button:not(.collapsed)::after{
+   background-image: url(./assets/minus-accordion.svg );
+}
+.accordion-button:not(.collapsed){
+   background-color: #1376f8;
+   color: #ffffff;
+}
+.accordion-button:focus {
+   z-index: 0;
+   border-color: none;
+   outline: 0;
+   box-shadow: none;
+}
+.accordion-button{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.accordion-body{
+   background-color: #1376f8;
+   color: #fff;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.accordion-flush .accordion-item .accordion-button{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.accordion-flush .accordion-item {
+   border-bottom: 0;
+}
+
+
 
 
