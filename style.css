@@ -22,6 +22,8 @@ body {
 
 .header-container {
   height: 5.6rem;
+  z-index: 1000;
+  position: relative;
 }
 
 .header-div {
@@ -573,11 +575,20 @@ rgba(37, 180, 248, 0.47) 51.04%,
 .accordion-flush .accordion-item .accordion-button{
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;
+   border-bottom: 10px;
 }
 .accordion-flush .accordion-item {
    border-bottom: 0;
 }
 
 
+
+.accordion-header:not(.collapsed):not(:focus) {
+ border-bottom: 1px solid #dee2e6; /* Replace with your desired border style */
+}
+
+.accordion-header {
+ border-bottom: none; /* Ensure no border by default */
+}
 
 
