@@ -590,5 +590,8 @@ rgba(37, 180, 248, 0.47) 51.04%,
 .accordion-header {
  border-bottom: none; /* Ensure no border by default */
 }
-
+.custom-link{
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set the color to black, change as needed */
+}
 
