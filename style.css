@@ -217,12 +217,15 @@ rgba(37, 180, 248, 0.47) 51.04%,
 );
   z-index: -1;
 }
-
-
-.why-us-img {
-  width: 24.5rem;
+.img-md-80{
+  width: 80%;
 }
-
+.img-md-100{
+width: 100%;
+}
+.why-us-container{
+  background-color: #e6f6fe;
+}
 .why-us-div {
   background-color: #e6f6fe;
   padding: 2rem 4rem;
@@ -250,28 +253,17 @@ rgba(37, 180, 248, 0.47) 51.04%,
   letter-spacing: 0.015rem;
 }
 
-.why-us-list {
-  margin-left: -2rem;
-  list-style-image: none;
-}
 
-.why-us-list li {
-  list-style-type: none;
-  background-image: none;
-  padding-left: 1px;
-}
-
-
-
-.why-us-list-item {
-  margin-bottom: 0.75rem;
-}
 .why-us-list{
-  list-style-type: none;
+  list-style: none;
 }
-.why-us-list li{
-  list-style-image: url('./assets/cutom-bullet.png');
-  padding-top: 1rem;
+ol, ul {
+  padding-left: 0rem;
+}
+.why-us-list-item{
+  padding-left: 2rem;
+  background: url('./assets/cutom-bullet.png') left center no-repeat;
+  margin-bottom: 1rem;
 }
 
 .why-us-btn {
