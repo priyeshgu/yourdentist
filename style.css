@@ -19,6 +19,10 @@ body {
 .above-header-left {
   margin-right: -4rem;
 }
+.before-header-address{
+  text-decoration: none;
+  color: inherit;
+}
 .wa-link{
   text-decoration: none;
   color: #272b2f;
@@ -35,13 +39,14 @@ body {
   border: 0px;
   border-radius: 0.625rem;
 }
+.logo-icon{
+  width: 10%;
+}
 
 /* .hero-container {
   margin-bottom: -9.1rem;
 } */
-.hero-left{
-  margin-top: -1rem;
-}
+
 .hero-heading {
      
     font-size: 2.5rem;
@@ -260,6 +265,13 @@ rgba(37, 180, 248, 0.47) 51.04%,
 
 .why-us-list-item {
   margin-bottom: 0.75rem;
+}
+.why-us-list{
+  list-style-type: none;
+}
+.why-us-list li{
+  list-style-image: url('./assets/cutom-bullet.png');
+  padding-top: 1rem;
 }
 
 .why-us-btn {
@@ -579,5 +591,22 @@ rgba(37, 180, 248, 0.47) 51.04%,
 .custom-link{
   text-decoration: none; /* Remove underline */
   color: black; /* Set the color to black, change as needed */
+}
+
+.nav-btns{
+  color: #212529;
+  background-color: white;
+  padding: 1%;
+  width: 8%;
+}
+.nav-btns2{
+  color: white;
+  background-color: #212529;
+  padding: 1%;
+  width: 8%;
+}
+.map-iframe{
+  width: 100%;
+  height: 6;
 }
 

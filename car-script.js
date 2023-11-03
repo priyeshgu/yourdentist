@@ -29,3 +29,32 @@ recipeItems.forEach((el) => {
         next = next.nextElementSibling
     }
 })
+$(document).ready(function () {
+    // Initialize the carousel
+    $('#teamCarousel').carousel();
+
+    // Go to the previous slide when clicking the custom previous icon
+    $('.custom-icon-prev').click(function () {
+      $('#teamCarousel').carousel('prev');
+    });
+
+    // Go to the next slide when clicking the custom next icon
+    $('.custom-icon-next').click(function () {
+      $('#teamCarousel').carousel('next');
+    });
+  });
+
+  $(document).ready(function () {
+    // Initialize the testimonial carousel
+    $('#recipeCarousel').carousel();
+
+    // Go to the previous slide when clicking the custom previous icon
+    $('.testimonial-custom-icon-prev').click(function () {
+      $('#recipeCarousel').carousel('prev');
+    });
+
+    // Go to the next slide when clicking the custom next icon
+    $('.testimonial-custom-icon-next').click(function () {
+      $('#recipeCarousel').carousel('next');
+    });
+});
