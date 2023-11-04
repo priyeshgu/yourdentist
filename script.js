@@ -131,26 +131,3 @@ inputFields.forEach(inputField => {
   });
 });
 
-// Get all accordion buttons
-const accordionButtons = document.querySelectorAll('.accordion-button');
-// Get all hr elements
-const hrElements = document.querySelectorAll('.hrContainer hr');
-
-// Add a click event listener to each accordion button
-accordionButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    hrElements[index+1].style.display = 'block';
-    hrElements[index-1].style.display = 'block';
-    const isExpandedBtn = button.getAttribute('aria-expanded') === 'true';
-
-    if (isExpandedBtn) {
-      // When the accordion item is expanded, hide the hr element
-      hrElements[index].style.display = 'none';
-
-    }
-    else{
-      hrElements[index].style.display = 'block';
-      console.log("else happening");
-    }
-  });
-});

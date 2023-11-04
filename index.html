@@ -50,7 +50,7 @@
     <nav class="header-div navbar navbar-expand-lg navbar-light px-3">
 
       <a class="navbar-brand" href="">
-        Your Dentist
+        <img src="./assets/logo-cropped.png" alt="">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -937,6 +937,7 @@
     </div>
     <!--acc copy-->
   </div>
+  
   <!--FAQ End-->
   <div class="footer mt-5">
     <div class="container">
@@ -992,6 +993,27 @@
       </div>
     </div>
   </div>
+  <button id="back-to-top" class="rounded-circle" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<script>
+  // Show the button when the user scrolls down 20px from the top
+  window.onscroll = () => {
+      const backToTopButton = document.getElementById("back-to-top");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          backToTopButton.style.display = "block";
+      } else {
+          backToTopButton.style.display = "none";
+      }
+  };
+
+  // Scroll to the top when the button is clicked
+  document.getElementById("back-to-top").onclick = () => {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  };
+</script>
+  
 
   <!-- Add Bootstrap JS and Popper.js scripts at the end of the body -->
   <script src="https://kit.fontawesome.com/527ee7a51c.js" crossorigin="anonymous"></script>
