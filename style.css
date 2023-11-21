@@ -193,7 +193,7 @@ body {
 }
 
 .form-section-img {
-  margin-left: 21%;
+  margin-left: 19%;
   width: 77%;
 }
 
@@ -429,11 +429,7 @@ margin-right:10%
   margin-left: 1.2rem;
 }
 
-.card-text {
-  text-align: left;
-  line-height: 155%;
-  letter-spacing: 0.015rem;
-}
+
 
 .testimonial-tile-heading {
   margin-top: -0.5rem;
@@ -626,4 +622,27 @@ margin-right:10%
   width: 39px;
   height: 39px;
 }
+.doc-name-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+}
+.doc-name-card h4{
+  font-size: 1.2rem;
+}
+.doc-name-card h5{
+  font-size: 0.8rem;
+}
+
+.service-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
 

@@ -31,12 +31,12 @@
                 <i class="fas fa-map-marker-alt"></i> Location
               </p>
             </a>
-            <a href="http://api.whatsapp.com/send?phone=15551234567" target="_blank" class="wa-link">
+            <a href="http://api.whatsapp.com/send?phone=+919973502051" target="_blank" class="wa-link">
               <div class="mx-2" >
                 <i class="fab fa-whatsapp"></i> WhatsApp
               </div>
             </a>
-            <a href="tel:+15551234567" class="wa-link">
+            <a href="tel:+919973502051" class="wa-link">
               <div><i class="fa fa-mobile"></i> Call</div>
             </a>
           </div>
@@ -50,7 +50,7 @@
     <nav class="header-div navbar navbar-expand-lg navbar-light px-3">
 
       <a class="navbar-brand" href="">
-        <img src="./assets/logo-new.png" alt="">
+        <img src="./assets/lgo.svg" alt="">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -79,9 +79,9 @@
         </ul>
         <ul class="navbar-nav">
           <!-- Use a separate list for the 'Book Now' button -->
-          <li class="nav-item">
+          <a href="https://calendly.com/yourdentist/dental-consultation-with-dr-sagarmani-seth" target="_blank"><li class="nav-item">
             <button class="btn btn-primary btn-lg">Book Appointment</button>
-          </li>
+          </li></a>
         </ul>
       </div>
   </div>
@@ -101,7 +101,7 @@
           smiles. Discover the difference of top-tier dental care in the city
         </h5>
         <img src="assets/dental-didi-resized-720.png" class="img-fluid rounded d-sm-block d-md-none" alt="">
-        <a href="#" class="btn btn-primary btn-lg hero-cta">Book an Appointment</a>
+        <a href="https://calendly.com/yourdentist/dental-consultation-with-dr-sagarmani-seth" class="btn btn-primary btn-lg hero-cta" target="_blank">Book an Appointment</a>
 
         
         <div class="review-carousel text-start mx-md-0 mx-3  ">
@@ -157,25 +157,28 @@
       <!-- Initial three cards -->
       <div class="col-md-4 service-card">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 1</h5>
-            <p class="card-text">Description of Service 1.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/dental-implant.svg" alt="" style="width: 15%; margin-bottom: 5%;">
+            <h5 class="card-title">Dental Implants</h5>
+            <p class="card-text">Restore your smile with precision-crafted dental implants for lasting confidence.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 service-card">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 2</h5>
-            <p class="card-text">Description of Service 2.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/laser.svg" alt="" style="width: 15%; margin-bottom: 3%;">
+            <h5 class="card-title">Laser Surgery</h5>
+            <p class="card-text">Experience precise dental care with advanced laser surgery for optimal oral health</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 service-card">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 3</h5>
-            <p class="card-text">Description of Service 3.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/braces.svg" alt="" style="width: 20%; margin-bottom: 7%;">
+            <h5 class="card-title">Orthodontic Treatment (Braces)</h5>
+            <p class="card-text">Transform your smile with personalized orthodontic care and advanced braces.</p>
           </div>
         </div>
       </div>
@@ -183,25 +186,28 @@
       <!-- Additional three cards initially hidden -->
       <div class="col-md-4 service-card additional-service collapse">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 4</h5>
-            <p class="card-text">Description of Service 4.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/rct.svg" alt="" style="width: 14%; margin-bottom: 5%;">
+            <h5 class="card-title">Root Canal Treatment (RCT)</h5>
+            <p class="card-text">Experience relief with precise root canal treatment, preserving your natural smile painlessly and effectively</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 service-card additional-service collapse">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 5</h5>
-            <p class="card-text">Description of Service 5.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/fracture.svg" alt="" style="width: 12%; margin-bottom: 6%;">
+            <h5 class="card-title"> Maxillofacial Fracture Treatment</h5>
+            <p class="card-text">Restore facial harmony with expert maxillofacial fracture treatment, ensuring optimal healing and aesthetics</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 service-card additional-service collapse">
         <div class="card service-card-int">
-          <div class="card-body">
-            <h5 class="card-title">Service 6</h5>
-            <p class="card-text">Description of Service 6.</p>
+          <div class="card-body service-details">
+            <img src="assets/service-icons/smile.svg" alt="" style="width: 18%; margin-bottom: 3%;">
+            <h5 class="card-title">Cosmetic Smile Design</h5>
+            <p class="card-text">Transform your smile with precision. Achieve aesthetic perfection through cosmetic smile designing</p>
           </div>
         </div>
       </div>
@@ -238,41 +244,39 @@
 
         <!-- Form -->
         <div class="form-div">
-          <form>
+          <form action="https://formspree.io/f/mqkvodvp" method="POST">
             <div class="form-input">
-
-              <label for="fullName form-input" class="form-label"></label>
-              <input type="text" class="form-control form-text-input" placeholder="Enter Your Name" id="fullName"
-                name="fullName" required="" />
-              <i class="fa-solid fa-user  input-icon" style="color: #cfcfcf;"></i>
-
+              <label for="fullName" class="form-label"></label>
+              <input type="text" class="form-control form-text-input" placeholder="Enter Your Name" id="fullName" name="fullName" required="" />
+              <i class="fa-solid fa-user input-icon" style="color: #cfcfcf;"></i>
             </div>
-
+        
             <div class="form-input">
               <label for="tel" class="form-label"></label>
-              <input type="tel" class="form-control from-input form-text-input" placeholder="Enter Your Phone Number"
-                id="tel" name="tel" pattern="[0-9]{10}" required="" />
-              <i class="fa-solid fa-phone  input-icon" style="color: #cfcfcf;"></i>
-
-
+              <input type="tel" class="form-control from-input form-text-input" placeholder="Enter Your Phone Number" id="tel" name="tel" pattern="[0-9]{10}" required="" />
+              <i class="fa-solid fa-phone input-icon" style="color: #cfcfcf;"></i>
             </div>
+        
             <div class="form-input">
               <label for="message" class="form-label"></label>
-              <input type="text" class="form-control from-input form-text-input" placeholder="Enter Your Enquery"
-                id="message" name="message" required="" />
-              <i class="fa-solid fa-pencil  input-icon" style="color: #cfcfcf;"></i>
-
+              <input type="text" class="form-control from-input form-text-input" placeholder="Enter Your Inquiry" id="message" name="message" required="" />
+              <i class="fa-solid fa-pencil input-icon" style="color: #cfcfcf;"></i>
             </div>
+        
+            <!-- Add this hidden input for your email -->
+            <input type="hidden" name="_replyto" value="your-email@example.com">
+        
             <button type="submit" class="btn btn-primary form-submit-btn">
               Submit
             </button>
           </form>
         </div>
+        
       </div>
       <div class="col-md-6">
         <!-- Image -->
         <div class="form-img-container d-none d-md-block">
-          <img src="./assets/dental-babu-hd.jpeg" class="form-section-img rounded img-fluid" alt=" Right Side Image">
+          <img src="./assets/docs/8.JPG" class="form-section-img rounded img-fluid" alt=" Right Side Image">
         </div>
       </div>
     </div>
@@ -347,9 +351,11 @@
                 <div class="col-md-3 ">
                   <div class="card mx-2">
                     <div class="card-img">
-                      <img src="./assets/docs/1.JPG" class="img-fluid">
+                      <img src="./assets/docs/1.JPG" class="img-fluid rounded">
                     </div>
                     <div class="doc-name-card">
+                      <h4>Dr. Anam Shahid BDS</h4>
+                      <h5>Consultant Dental surgeon</h5>
                     </div>
                   </div>
                 </div>
@@ -358,9 +364,11 @@
                 <div class="col-md-3 ">
                   <div class="card mx-2">
                     <div class="card-img">
-                      <img src="./assets/docs/2.jpg" class="img-fluid">
+                      <img src="./assets/docs/2.jpg" class="img-fluid rounded">
                     </div>
-                    <div class="doc-name-card"> Dr Sagar2</div>
+                    <div class="doc-name-card">
+                      <h4>Dr. Akash Handa</h4>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -368,9 +376,11 @@
                 <div class="col-md-3 ">
                   <div class="card mx-2">
                     <div class="card-img">
-                      <img src="./assets/docs/3.JPG" class="img-fluid">
+                      <img src="./assets/docs/3.JPG" class="img-fluid rounded">
                     </div>
-                    <div class="doc-name-card"> Dr Sagar3</div>
+                    <div class="doc-name-card"><h4>Dr. Anam Shahid BDS</h4>
+                    <h5>Consultant Dental Surgeon</h5>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -378,9 +388,11 @@
                 <div class="col-md-3 ">
                   <div class="card mx-2">
                     <div class="card-img">
-                      <img src="./assets/docs/4.JPG" class="img-fluid">
+                      <img src="./assets/docs/4.JPG" class="img-fluid rounded">
                     </div>
-                    <div class="doc-name-card"> Dr Sagar4</div>
+                    <div class="doc-name-card"> <h4>Dr. Roopam BDS </h4>
+                    <h5>Consultant Dental Surgeon</h5>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -388,9 +400,11 @@
                 <div class="col-md-3 ">
                   <div class="card mx-2">
                     <div class="card-img">
-                      <img src="./assets/docs/5.JPG" class="img-fluid">
+                      <img src="./assets/docs/5.JPG" class="img-fluid rounded">
                     </div>
-                    <div class="doc-name-card"> Dr Sagar5</div>
+                    <div class="doc-name-card"> <h4>Dr. Sangeeta BDS </h4>
+                    <h5>Consultant Dental Surgeon</h5>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -869,6 +883,7 @@
     </div>
   </div>
   <!--blog End-->
+
   <!--FAQ Start-->
   <div class="container mt-5">
     <div class="faq-heading-texts">
@@ -880,20 +895,19 @@
     </div>
     <!-- FAQ Accordion-->
 
-    <!--acc copy-->
+    
     <div class="accContainer container col-md-6 col-sm-12">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              • Accordion Item #1
+              • How often should I change my toothbrush?
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
             data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              .accordion-flush</code> class. This is the first item's accordion body.</div>
+            <div class="accordion-body">Replace your toothbrush every three to four months or sooner if bristles are frayed.</div>
           </div>
         </div>
 
@@ -901,14 +915,12 @@
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              • Accordion Item #2
+              • How can I prevent tooth decay?
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              .accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled
-              with some actual content.</div>
+            <div class="accordion-body">Brush and floss regularly, limit sugary snacks, and attend regular dental check-ups.</div>
           </div>
         </div>
 
@@ -916,20 +928,42 @@
           <h2 class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              • Accordion Item #3
+              • How often should I visit the dentist?
             </button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
             data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              .accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening
-              here in terms of content, but just filling up the space to make it look, at least at first glance, a bit
-              more representative of how this would look in a real-world application.</div>
+            <div class="accordion-body">Regular dental check-ups are recommended every six months for optimal oral health.</div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              • What are your opening hours?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We are open from 9 AM to 8 PM every day, except on Fridays when we are closed.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              • Can I book an appointment online?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Answer: Absolutely! You can conveniently book your dental appointment through our website.</div>
+          </div>
+        </div>
+        
       </div>
     </div>
-    <!--acc copy-->
+    
   </div>
   
   <!--FAQ End-->
