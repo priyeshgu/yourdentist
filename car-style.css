@@ -36,9 +36,12 @@
   height: 27%;
   flex-shrink: 0;
   border-radius: 0.625rem;
-  background: var(--Linear-2, linear-gradient(96deg, rgba(37, 180, 248, 0.30) 0%, rgba(37, 180, 248, 0.00) 100%));
+  color: white;
+  background: #2C4251;
+  /* border: 0.5px solid #0d6efd; */
   backdrop-filter: blur(100px);
   position: absolute;
   bottom: 3%;
   left: 3%;
 }
+/* var(--Linear-2, linear-gradient(90, rgba(37, 180, 248, 0.30) 0%, rgba(16, 31, 37, 0) 100%)); */
